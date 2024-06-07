@@ -1,0 +1,192 @@
+body {
+    Color:black; 
+    background-image: url('../images/Embassy_of_the_Republic_of_Guinea\,_Washington\,_DC\ \(1\).jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.sitesdinteret{
+    Color:black; 
+    background-image: url('../images/Papua_New_Guinea_\(5986599443\).jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.page1{
+  Color:black; 
+  background-image: url('../images/Embassy_of_the_Republic_of_Guinea\,_Washington\,_DC\ \(1\).jpg'); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+.plandusite{
+  Color:black; 
+  background-image: url(../images/Entre_principal_du_palais_du_peuple_conakry.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+.FAQ{
+  Color:black; 
+  background-image: url(../images/Ile_de_Loose_Guinea-Conakry.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+.Apropos{
+  Color:black; 
+  background-image: url(../images/Un_aperçu_de_la_ville_de_conakry.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+.basseguinee{
+  Color:black; 
+  background-image: url(../images/basse.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+.Moyenne  guinée{
+  Color:white; 
+  background-image: url(../images/Fouta_Djallon_\(14625360573\).jpg); 
+  
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/Fouta_Djallon_\(14625360573\).jpg);
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+.Moyenne  guinée h1 {
+  text-align:justify
+}
+
+.hauteguinee{
+  Color:white; 
+  background-image: url(../images/haute.jpg); 
+  
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/haute.jpg); 
+
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+.hauteguinee h1 {
+  text-align:justify
+}
+
+.guineeforestiere{
+  Color:white; 
+  background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/foret.jpg);
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+.guineeforestiere h1 {
+  text-align:justify
+}
+
+body h1
+{
+  /* background-color: rgba(0127, 0255, 0212, 0.5); */
+  color: #52c5c5;
+}
+
+
+p {
+  font: size 40px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgba(129, 189, 105,0.5);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: #08a1dd;
+  }
+  div {text-align:center 
+  
+  }
+  /* CSS ADAPTATIF PAR TAILLE D'ÉCRAN / RESPONSIVE CSS */
+/* Grand bureau */
+@media (min-width: 1200px) { 
+  body    {
+  }
+}
+
+/* Tablette portrait vers paysage et bureau */
+@media (min-width: 768px) and (max-width: 1199px) { 
+  body    {
+      background-color: rgba(129, 189, 105,0.5);
+  }
+}
+
+/* Téléphone paysage vers tablette portrait */
+@media (max-width: 767px) { 
+  body    {
+    background-color: rgb(129, 189, 105);
+  }
+}
+
+/* Téléphones paysage et vers le bas */
+@media (max-width: 480px) {
+ body     {   
+      background-color: rgb(129, 189, 105); 
+   }
+
+li {
+     float: none;
+   }
+­}
+
+   
+
+  .MW {
+    text-align: center;
+  } 
